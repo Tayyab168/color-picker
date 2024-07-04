@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+
+        }
+        .container{
+            align-items: center;
+        }
+        input{
+        height: 200px;
+        width: 200px;
+        border: 2px solid;
+        border-radius: 10%;
+        }
+      p>label{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p><label for="favcolor">Select your favorite color:</label></p>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
